@@ -4,26 +4,30 @@
       <div class="column wrap items-center">
         <div class="col" style="width: 120vh;">
           <p>
-            <span class="text-h5 text-weight-bold" style="color: var(--q-primary)">EVENTO</span>
+            <span
+              class="text-h5 text-weight-bold"
+              style="color: var(--q-primary)"
+              >EVENTO</span
+            >
           </p>
           <p class="text-justify">
             {{ $store.state.evento }}
           </p>
         </div>
 
-        <div class="col q-pt-sm" style="width: 120vh;">
+        <div class="col q-pt-sm" style="width: 120vh">
           <div class="row justify-center q-gutter-md">
             <q-card class="col card-border">
               <q-card-section align="center">
-                <img 
+                <img
                   src="@/assets/python_comunidad.svg"
                   class="q-pt-sm"
-                  width="100" 
-                  height="100" 
+                  width="100"
+                  height="100"
                 />
 
                 <div class="text-h6 text-weight-bold q-pt-sm">COMUNIDAD</div>
-                
+
                 <p class="q-pt-sm">
                   {{ $store.state.lorem }}
                 </p>
@@ -32,16 +36,16 @@
 
             <q-card class="col card-border">
               <q-card-section align="center">
-                <img 
+                <img
                   src="@/assets/open_source.svg"
                   class="q-pt-sm"
-                  width="100" 
+                  width="100"
                   height="100"
-                >
-                
+                />
+
                 <div class="text-h6 text-weight-bold q-pt-sm">OPEN SOURCE</div>
-                 
-                <p class="q-pt-sm"> 
+
+                <p class="q-pt-sm">
                   {{ $store.state.lorem }}
                 </p>
               </q-card-section>
@@ -49,15 +53,15 @@
 
             <q-card class="col card-border">
               <q-card-section align="center">
-                <img 
+                <img
                   src="@/assets/naturaleza.svg"
                   class="q-pt-sm"
-                  width="100" 
+                  width="100"
                   height="100"
-                >
-                
+                />
+
                 <div class="text-h6 text-weight-bold q-pt-sm">NATURALEZA</div>
-              
+
                 <p class="q-pt-sm">
                   {{ $store.state.lorem }}
                 </p>
@@ -66,9 +70,13 @@
           </div>
         </div>
 
-        <div class="col q-pt-md" style="width: 120vh;">
+        <div class="col q-pt-md" style="width: 120vh">
           <p>
-            <span class="text-h6 text-weight-bold" style="color: var(--q-primary)">¿A QUIÉN VA DIRIGIDO?</span>
+            <span
+              class="text-h6 text-weight-bold"
+              style="color: var(--q-primary)"
+              >¿A QUIÉN VA DIRIGIDO?</span
+            >
           </p>
           <p class="text-justify">
             {{ $store.state.evento }}
@@ -80,15 +88,15 @@
 </template>
 
 <style scoped>
-  .card-border {
-    border-style: solid;
-    border-color: var(--q-primary);
-    border-radius: 15px !important;
-  }
+.card-border {
+  border-style: solid;
+  border-color: var(--q-primary);
+  border-radius: 15px !important;
+}
 </style>
 
 <script>
-  export default {
-    name: 'Evento'
-  }
+export default {
+  name: "Evento",
+};
 </script>
