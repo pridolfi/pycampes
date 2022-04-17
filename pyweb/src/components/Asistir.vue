@@ -1,7 +1,7 @@
 <template>
   <section id="asistir">
     <div class="q-pa-xl">
-      <div class="column items-center">
+      <div class="column wrap items-center">
         <div style="width: 120vh;">
           <p>
             <span class="text-h5 text-weight-bold" style="color: var(--q-primary)">ASISTIR</span>

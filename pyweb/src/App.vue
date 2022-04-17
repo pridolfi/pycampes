@@ -6,6 +6,7 @@
       <Evento />
       <Asistir />
       <Becas />
+      <MasInfo />
       <Footer />
     </q-page-container>
   </q-layout>
@@ -18,6 +19,7 @@ import BannerHome from './components/BannerHome.vue'
 import Evento from './components/Evento.vue'
 import Asistir from './components/Asistir.vue'
 import Becas from './components/Becas.vue'
+import MasInfo from './components/MasInfo.vue'
 import Footer from "./components/Footer.vue";
 
 export default {
@@ -29,6 +31,7 @@ export default {
     Evento,
     Asistir,
     Becas,
+    MasInfo,
     Footer
   },
 
