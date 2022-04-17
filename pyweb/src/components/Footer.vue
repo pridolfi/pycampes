@@ -48,8 +48,8 @@ export default {
 
 <style scoped>
 .footer {
-  background-color: #99d98c;
-  width: 100vw;
+  background-color: var(--q-primary);
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -69,6 +69,7 @@ span {
   gap: 1rem;
   padding: 0.5rem;
 }
+
 img {
   width: 32px;
   height: 32px;
